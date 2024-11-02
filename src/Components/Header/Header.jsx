@@ -1,11 +1,31 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Header.css";
 import { icons } from "../../assets/assets";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Header = () => {
+  const [headerClass, setHeaderClass] = useState('transparent'); // State to manage header class
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setHeaderClass('scrolled'); // Update state to 'scrolled'
+      } else {
+        setHeaderClass('transparent'); // Update state to 'transparent'
+      }
+    };
+
+    // Add scroll event listener
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup function to remove the event listener on unmount
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []); // Empty dependency array means this effect runs once when component mounts
+
   return (
-    <header className="header">
+    <header className={`header ${headerClass}`}> {/* Use state to set class */}
       <div className="logo">Harsh</div>
       <nav className="nav">
         <ul className="nav-list">

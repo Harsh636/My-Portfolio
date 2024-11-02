@@ -1,5 +1,9 @@
+
 .home {
     background-color: #0d0c1d;
+    background: 
+    url('../../assets/images/home-bg.jpg') no-repeat center center fixed; /* Replace with your image path */
+  background-size: cover;
     color: #ffffff;
     display: flex;
     align-items: center;
@@ -7,6 +11,16 @@
     height: 100vh;
     font-family: Arial, sans-serif;
   }
+  .overlay {
+    position: absolute; /* Position it absolutely within .home */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: 1; /* Ensure it is behind the content */
+}
+
   
   .content {
     display: flex;
@@ -15,6 +29,7 @@
     padding-top: 70px;
     width: 80%;
     max-width: 1200px;
+    z-index: 2;
   }
   
   .headings {
@@ -35,16 +50,16 @@
   }
   
   .main-name {
-    color: #a267f5;
+    color: #be50f4;
   }
   
   .subtext {
     font-size: 1.8rem; /* Adjust font size as desired */
-    color: #a267f5;
+    color: #be50f4;
     margin-top: 1rem;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 0.15em solid #a267f5;
+    border-right: 0.15em solid #be50f4;
     animation: blink-caret 0.75s step-end infinite;
     width: 300px; /* Set a fixed width to prevent shifting */
     text-align: left; /* or text-align: center, depending on your design */

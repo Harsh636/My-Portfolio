@@ -1,18 +1,33 @@
 /* Header styling */
+/* Base header styling */
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.4rem 3rem;
-    background-color: rgba(27, 26, 46, 0.66);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-    box-shadow: 0px 10px 10px rgba(9, 5, 29, 0.17);
-    backdrop-filter: blur(15px);
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 3rem;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  transition: all 0.3s ease-out; /* Smooth transition for background changes */
+  position: fixed !important;
+}
+
+/* Transparent header */
+.header.transparent {
+  background-color: transparent; /* Fully transparent */
+  box-shadow: none; /* No shadow when transparent */
+}
+
+/* Scrolled header */
+.header.scrolled {
+  background-color: rgba(27, 26, 46, 0.17); /* Partially transparent */
+  box-shadow: 0px 10px 10px rgba(9, 5, 29, 0.17); /* Add shadow on scroll */
+  backdrop-filter: blur(15px); /* Optional: keeps the blur effect */
+}
+
+/* Rest of your existing styles... */
+
   
   .logo {
     padding-left: 80px;

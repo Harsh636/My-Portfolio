@@ -10,6 +10,7 @@ import contact from './images/icons8-phone-50.png'
 import git from './images/icons8-git-50.png'
 import star from './images/icons8-star-50.png'
 import homelogo from './images/home-main.svg'
+import homebg from './images/home-bg.jpg'
  
 export const icons = {
     home,
@@ -26,4 +27,5 @@ export const icons = {
 
 export const img = {
     homelogo,
+    homebg
 }
