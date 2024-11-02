@@ -56,8 +56,9 @@
     left: 0;
     bottom: -6px;
     width: 0;
-    height: 3px;
+    height: 4px;
     background-color: #be50f4;
+    border-radius: 5;
     transition: width 0.3s ease;
   }
   

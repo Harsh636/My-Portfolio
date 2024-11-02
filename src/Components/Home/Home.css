@@ -1,0 +1,88 @@
+.home {
+    background-color: #0d0c1d;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 70px;
+    width: 80%;
+    max-width: 1200px;
+  }
+  
+  .headings {
+    max-width: 60%;
+    text-align: left;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    color: #ffffff;
+    padding-bottom: 20px;
+  }
+  
+  .heading-name {
+    font-size: 2.8rem;
+    color: #ffffff;
+    padding-bottom: 40px;
+  }
+  
+  .main-name {
+    color: #a267f5;
+  }
+  
+  .subtext {
+    font-size: 1.8rem; /* Adjust font size as desired */
+    color: #a267f5;
+    margin-top: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.15em solid #a267f5;
+    animation: blink-caret 0.75s step-end infinite;
+    width: 300px; /* Set a fixed width to prevent shifting */
+    text-align: left; /* or text-align: center, depending on your design */
+  }
+  
+  
+  
+  /* Waving hand emoji */
+  .wave {
+    display: inline-block;
+    animation: wave-animation 2s infinite;
+    transform-origin: 70% 70%; /* Adjusts where the rotation pivots */
+  }
+  
+  @keyframes wave-animation {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(14deg); }
+    20% { transform: rotate(-8deg); }
+    30% { transform: rotate(14deg); }
+    40% { transform: rotate(-4deg); }
+    50% { transform: rotate(10deg); }
+    60% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+  }
+  
+  @keyframes blink-caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  .image-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image-container img {
+    width: 550px;
+    border-radius: 8px;
+  }
+  

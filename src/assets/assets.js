@@ -9,6 +9,7 @@ import skill from './images/icons8-skill-50.png'
 import contact from './images/icons8-phone-50.png'
 import git from './images/icons8-git-50.png'
 import star from './images/icons8-star-50.png'
+import homelogo from './images/home-main.svg'
  
 export const icons = {
     home,
@@ -22,3 +23,7 @@ export const icons = {
     git,
     star
 };
+
+export const img = {
+    homelogo,
+}
