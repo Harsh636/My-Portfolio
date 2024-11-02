@@ -1,0 +1,116 @@
+/* Header styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 3rem;
+    background-color: rgba(27, 26, 46, 0.66);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0px 10px 10px rgba(9, 5, 29, 0.17);
+    backdrop-filter: blur(15px);
+  }
+  
+  .logo {
+    padding-left: 80px;
+    font-size: 25px;
+    color: white;
+  }
+  
+  .nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* List items styling */
+  .nav-list li {
+    position: relative;
+    margin: 0 32px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-list li img {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+  }
+  
+  .nav-list li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0;
+    height: 3px;
+    background-color: #be50f4;
+    transition: width 0.3s ease;
+  }
+  
+  .nav-list li:hover span::after {
+    width: 100%;
+  }
+  
+  /* Dropdown Styling */
+  /* Dropdown button styling */
+.dropdown-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Dropdown menu styling */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #333;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: flex; /* Flex layout for icon and text */
+    align-items: center; /* Vertically align icon and text */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .dropdown-content a img {
+    margin-right: 8px; /* Space between icon and text */
+    width: 16px; /* Adjust icon size */
+    height: 16px;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #eee;
+  }
+  
+  /* Show dropdown content on hover */
+  .nav-item.dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
