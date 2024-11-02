@@ -6,6 +6,8 @@ import { img } from "../../assets/assets";
 const Home = () => {
   return (
     <div className="home">
+      
+      
       <div className="overlay"></div>
       <div className="content">
         <div className="headings">

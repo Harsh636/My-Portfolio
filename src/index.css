@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    font-family: "Raleway", serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+    background: 
+        url('./assets//images/beautiful-1866538.jpg') no-repeat center center fixed; /* Path to background image */
+    background-size: cover;
+    top: 0; /* Align at the top */
+    left: 0; /* Align at the left */
+    width: 100%; /* Cover the full width */
+    height: 100%; /* Cover the full height */
+    object-fit: cover; /* Ensure no distortion */
+    z-index: 0; /* Place it behind the overlay */
+    opacity: 0.85;
+}

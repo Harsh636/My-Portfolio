@@ -1,80 +1,82 @@
-
 .home {
-    background-color: #0d0c1d;
+    position: relative; /* Establish a positioning context */
+    background-color: #0d0c1d; /* Fallback color */
     background: 
-    url('../../assets/images/home-bg.jpg') no-repeat center center fixed; /* Replace with your image path */
-  background-size: cover;
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    font-family: Arial, sans-serif;
-  }
-  .overlay {
-    position: absolute; /* Position it absolutely within .home */
+        url('../../assets/images/home-bg.jpg') no-repeat center center fixed; /* Path to background image */
+    background-size: cover; /* Ensure the background covers the area */
+    color: #ffffff; /* Text color */
+    display: flex; /* Flexbox for content alignment */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    height: 100vh; /* Full viewport height */
+    font-family: Arial, sans-serif; /* Font family */
+}
+
+
+.overlay {
+    position: absolute; /* Overlay to darken background */
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
-    z-index: 1; /* Ensure it is behind the content */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark overlay */
+    z-index: 1; /* Ensure it's above the static image */
 }
 
-  
-  .content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 70px;
-    width: 80%;
-    max-width: 1200px;
-    z-index: 2;
-  }
-  
-  .headings {
-    max-width: 60%;
-    text-align: left;
-  }
-  
-  .heading {
-    font-size: 2.5rem;
-    color: #ffffff;
-    padding-bottom: 20px;
-  }
-  
-  .heading-name {
-    font-size: 2.8rem;
-    color: #ffffff;
-    padding-bottom: 40px;
-  }
-  
-  .main-name {
-    color: #be50f4;
-  }
-  
-  .subtext {
-    font-size: 1.8rem; /* Adjust font size as desired */
-    color: #be50f4;
-    margin-top: 1rem;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 0.15em solid #be50f4;
-    animation: blink-caret 0.75s step-end infinite;
-    width: 300px; /* Set a fixed width to prevent shifting */
-    text-align: left; /* or text-align: center, depending on your design */
-  }
-  
-  
-  
-  /* Waving hand emoji */
-  .wave {
-    display: inline-block;
-    animation: wave-animation 2s infinite;
-    transform-origin: 70% 70%; /* Adjusts where the rotation pivots */
-  }
-  
-  @keyframes wave-animation {
+.content {
+    position: relative; /* To ensure it’s above the overlay */
+    display: flex; /* Flexbox for content alignment */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space items evenly */
+    padding-top: 70px; /* Space at the top */
+    width: 80%; /* Max width for content */
+    max-width: 1200px; /* Fixed max width */
+    z-index: 2; /* Place it above the overlay */
+}
+
+/* Your existing styles for headings, subtext, etc. */
+.headings {
+    max-width: 60%; /* Restrict heading width */
+    text-align: left; /* Align text to the left */
+}
+
+.heading {
+    font-size: 2.5rem; /* Font size */
+    color: #ffffff; /* Text color */
+    padding-bottom: 20px; /* Spacing */
+}
+
+.heading-name {
+    font-size: 2.8rem; /* Font size */
+    color: #ffffff; /* Text color */
+    padding-bottom: 40px; /* Spacing */
+}
+
+.main-name {
+    color: #be50f4; /* Highlight color */
+}
+
+.subtext {
+    font-size: 1.8rem; /* Font size */
+    color: #be50f4; /* Text color */
+    margin-top: 1rem; /* Spacing */
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflowing text */
+    border-right: 0.15em solid #be50f4; /* Typing effect caret */
+    animation: blink-caret 0.75s step-end infinite; /* Animation */
+    width: 300px; /* Fixed width */
+    text-align: left; /* Align text */
+}
+
+/* Additional styles for wave animation, image container, etc. */
+.wave {
+    display: inline-block; /* Inline block for animation */
+    animation: wave-animation 2s infinite; /* Wave animation */
+    transform-origin: 70% 70%; /* Pivot point for rotation */
+}
+
+/* Keyframes for animations (unchanged) */
+@keyframes wave-animation {
     0% { transform: rotate(0deg); }
     10% { transform: rotate(14deg); }
     20% { transform: rotate(-8deg); }
@@ -83,21 +85,18 @@
     50% { transform: rotate(10deg); }
     60% { transform: rotate(0deg); }
     100% { transform: rotate(0deg); }
-  }
-  
-  @keyframes blink-caret {
-    50% {
-      border-color: transparent;
-    }
-  }
-  
-  .image-container {
-    display: flex;
-    align-items: center;
-  }
-  
-  .image-container img {
-    width: 550px;
-    border-radius: 8px;
-  }
-  
+}
+
+@keyframes blink-caret {
+    50% { border-color: transparent; }
+}
+
+.image-container {
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center items vertically */
+}
+
+.image-container img {
+    width: 550px; /* Width for images */
+    border-radius: 8px; /* Rounded corners */
+}
