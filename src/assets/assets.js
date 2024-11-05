@@ -11,7 +11,8 @@ import git from "./images/icons8-git-50.png";
 import star from "./images/icons8-star-50.png";
 import homelogo from "./images/home-main.svg";
 import homebg from "./images/water-drops-6373296.jpg";
-import lowimg from './images/beautiful-1866538.jpg'
+import lowimg from './images/beautiful-1866538.jpg';
+import avatar from './images/avatar (1).svg';
 
 export const icons = {
   home,
@@ -29,5 +30,6 @@ export const icons = {
 export const img = {
   homelogo,
   homebg,
-  lowimg
+  lowimg,
+  avatar
 };

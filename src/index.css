@@ -13,5 +13,4 @@ body{
     height: 100%; /* Cover the full height */
     object-fit: cover; /* Ensure no distortion */
     z-index: 0; /* Place it behind the overlay */
-    opacity: 0.85;
-}
+    opacity: 0.85;}
