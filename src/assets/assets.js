@@ -13,6 +13,13 @@ import homelogo from "./images/home-main.svg";
 import homebg from "./images/water-drops-6373296.jpg";
 import lowimg from './images/beautiful-1866538.jpg';
 import avatar from './images/avatar (1).svg';
+import bootstrap from './images/boot-150x150.png';
+import css from './images/css-150x150.jpg';
+import html from './images/HTML5_logo_and_wordmark.svg-150x150.png';
+import js from './images/js-150x150.webp';
+import re from './images/react-150x150.png';
+import python from './images/python-150x150.png';
+import sql from './images/SQL-1-150x150.png';
 
 export const icons = {
   home,
@@ -33,3 +40,13 @@ export const img = {
   lowimg,
   avatar
 };
+
+export const dist_slider = [
+  { dist_img: html },
+  { dist_img: css },
+  { dist_img: js },
+  { dist_img: python },
+  { dist_img: re },
+  { dist_img: bootstrap },
+  { dist_img: sql },
+];
