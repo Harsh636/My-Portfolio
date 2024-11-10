@@ -4,6 +4,7 @@ import Home from "./Components/Home/Home";
 import Footer from "./Components/Footer/Footer";
 import Aboutme from "./Components/Aboutme/Aboutme";
 import MySkill from "./Components/MySkill/MySkill";
+import Findme from "./Components/Findme/Findme";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <Aboutme/>
       <MySkill/>
+      <Findme/>
       <Footer />
     </div>
   );

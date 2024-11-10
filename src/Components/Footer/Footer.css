@@ -1,0 +1,45 @@
+.footer-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(10, 4, 22);
+    padding: 10px 80px;
+    color: white;
+    height: 4rem;
+    
+  }
+  
+  .section {
+    padding-top: 100px;
+  }
+
+  .footer-text {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .footer-icon {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    
+  }
+  
+  .footer-icon li {
+    display: inline-block;
+  }
+  
+  .footer-icon a {
+    text-decoration: none;
+    background-color: rgb(10, 4, 22);
+    color: inherit; /* Inherits the color from the icon */
+    transition: transform 0.3s;
+  }
+  
+  .footer-icon a:hover {
+    transform: scale(1.1);
+  }
+  
