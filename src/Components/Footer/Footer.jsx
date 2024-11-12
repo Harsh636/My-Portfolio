@@ -8,8 +8,8 @@ const Footer = () => {
     <div className="section">
     <div className="footer-navbar">
       
-      <p className="footer-text">Designed and Developed by Soumyajit Behera</p>
-      <p className="footer-text">Copyright © 2024 SB</p>
+      <p className="footer-text">Designed and Developed by Harsh</p>
+      <p className="footer-text">Copyright © 2024 HJ</p>
       <ul className="footer-icon">
         <li>
           <a href="https://github.com/Harsh636">

@@ -58,7 +58,10 @@
     display: flex;
     align-items: center;
   }
-  
+  header .nav-list li a {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Inherit the color from parent element */
+  }
   .nav-list li img {
     height: 20px;
     width: 20px;
@@ -122,11 +125,23 @@
   }
   
   .dropdown-content a:hover {
-    background-color: #eee;
+    background-color: gray;
   }
   
   /* Show dropdown content on hover */
   .nav-item.dropdown:hover .dropdown-content {
     display: block;
   }
+
+  .header-others {
+    background-color: black;
+  }
+
+  .header-others img{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+  }
+
+  
   
