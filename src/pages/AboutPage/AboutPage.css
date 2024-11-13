@@ -1,0 +1,92 @@
+.about-page{
+    
+    color: white;
+    justify-content: center;
+    display: flex;
+    padding: 0rem 2rem 0rem 4rem;
+    padding-top: 7rem;
+}
+
+.about-img img{
+    height: 40rem;
+    width: 40rem;
+}
+
+.about-text{
+    max-width: 50%;
+}
+.about-text h2{
+    font-size: 2.8rem;
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+}
+
+.about-p{
+    font-size: 1.4rem;
+    text-align: left;
+    line-height: 2.5rem; 
+}
+
+.about-main{
+  font-size: 1.4rem;
+  text-align: left;
+  padding: 0px;
+  line-height: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/* work together section */
+
+.about-work-together {
+    max-width: 70%; /* Adjust based on your desired width */
+    
+    margin: 0 auto; /* Center align the section */
+    text-align: center; /* Center the content inside the section */
+    padding: 5rem; /* Add padding for space around the section */
+    color: white;
+  }
+  
+  .about-work-together-heading {
+    margin-bottom: 2.5rem; /* Add space below the heading */
+    font-size: 2.8rem;
+  }
+  
+  .about-work-together-text {
+    text-align: left; /* Left align the paragraph */
+    line-height: 2rem; /* Improve readability */
+    font-size: 1.4rem;
+  }
+  
+  .about-work-together-text br {
+    margin-bottom: 2rem; /* Add space below <br> tags */
+    display: block; /* Ensure it takes space */
+    content: ''; /* Clear content if necessary */
+  }
+  
+  .about-work-together-buttom {
+    display: inline-block;
+    margin-top: 1.5rem; /* Space above the button */
+    padding: 0.8rem 2rem; /* Adjust padding */
+    background-color: rgba(128, 21, 227,0.9); /* Example background color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+  }
+  
+
+  .section{
+    padding-top: 30px;
+  }
+
+  .link-reset {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+  }
+  
+  .link-reset:hover, .link-reset:focus, .link-reset:active {
+    text-decoration: none;
+    color: inherit;
+  }
+  

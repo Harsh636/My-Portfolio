@@ -1,0 +1,50 @@
+.skillset-container {
+    text-align: center;
+    color: white;
+    padding: 0rem 7rem;
+  }
+  
+  .skillset-title {
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+  }
+  
+  .highlight {
+    color: blueviolet;
+  }
+  
+  .skillset-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 3rem;
+  }
+  
+  .skill-card {
+    background-color: #121212;
+    border: 1.8px solid blueviolet;
+    height: 10rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s;
+  }
+  
+  .skill-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .skill-card p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+  .skill-card svg {
+    font-size: 50px; /* Adjust the size as needed */
+  }
+  .skill-page{
+    padding-top: 4rem;
+  }
+  

@@ -20,6 +20,7 @@ import js from "./images/js-150x150.webp";
 import re from "./images/react-150x150.png";
 import python from "./images/python-150x150.png";
 import sql from "./images/SQL-1-150x150.png";
+import homeMain from './images/home-main.svg';
 
 export const icons = {
   home,
@@ -39,6 +40,7 @@ export const img = {
   homebg,
   lowimg,
   avatar,
+  homeMain,
 };
 
 export const dist_slider = [
