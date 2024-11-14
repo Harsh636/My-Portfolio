@@ -1,0 +1,22 @@
+.resume{
+    padding-top: 8rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.resume-img{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 80%;
+    z-index: 5;
+    padding-bottom: 3rem;
+}
+.resume-button{
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 1.3rem;
+}

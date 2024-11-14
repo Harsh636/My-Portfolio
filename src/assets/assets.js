@@ -20,8 +20,8 @@ import js from "./images/js-150x150.webp";
 import re from "./images/react-150x150.png";
 import python from "./images/python-150x150.png";
 import sql from "./images/SQL-1-150x150.png";
-import homeMain from './images/home-main.svg';
-
+import homeMain from "./images/home-main.svg";
+import myResume from './images/Myresume.jpg';
 export const icons = {
   home,
   about,
@@ -41,6 +41,7 @@ export const img = {
   lowimg,
   avatar,
   homeMain,
+  myResume,
 };
 
 export const dist_slider = [
