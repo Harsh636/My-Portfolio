@@ -23,6 +23,11 @@ import sql from "./images/SQL-1-150x150.png";
 import homeMain from "./images/home-main.svg";
 import myResume from './images/Myresume.jpg';
 import contactImg from './images/contact image.jpeg';
+import cyber from './images/cyber security.jpg';
+import micro1 from './images/Micro1.jpg';
+import micro2 from './images/Micro2.jpg';
+import micro3 from './images/Micro3.jpg';
+import webd from './images/webdbyangela.jpg';
 
 export const icons = {
   home,
@@ -45,7 +50,14 @@ export const img = {
   homeMain,
   myResume,
   contactImg,
+  cyber,
+  micro1,
+  micro2,
+  micro3,
+  webd,
 };
+
+
 
 export const dist_slider = [
   { dist_img: html },
