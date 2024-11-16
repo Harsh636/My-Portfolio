@@ -22,6 +22,8 @@ import python from "./images/python-150x150.png";
 import sql from "./images/SQL-1-150x150.png";
 import homeMain from "./images/home-main.svg";
 import myResume from './images/Myresume.jpg';
+import contactImg from './images/contact image.jpeg';
+
 export const icons = {
   home,
   about,
@@ -42,6 +44,7 @@ export const img = {
   avatar,
   homeMain,
   myResume,
+  contactImg,
 };
 
 export const dist_slider = [

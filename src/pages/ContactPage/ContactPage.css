@@ -1,0 +1,96 @@
+.contact-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the top */
+    padding: 2rem 5rem;
+    padding-top: 7rem;
+    font-family: Arial, sans-serif;
+    gap: 3rem; /* Space between content and image */
+  }
+  
+  .contact-content {
+    flex: 1; /* Takes up the remaining space on the left */
+    max-width: 60%; /* Optional: Limit content width */
+  }
+  
+  .contact-page-heading {
+    font-size: 3.8rem;
+    font-weight: bold;
+    color: blueviolet;
+    margin-bottom: 10px;
+  }
+  
+  .contact-page-text {
+    font-size: 1.4rem;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .contact-card {
+    display: flex;
+    align-items: center;
+    background: #f8f8ff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon-container {
+    background-color: #6c42e0;
+    color: #fff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+  }
+  
+  .contact-title {
+    margin: 0;
+    text-align: left;
+    color: #6c42e0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .contact-text {
+    margin: 0;
+    text-align: left;
+    font-size: 14px;
+    color: black;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .social-icon {
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #5231a4;
+  }
+  
+  .contact-page-image {
+    width: 44rem;
+    height: 35rem;
+    padding: 4.9rem 0rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0; /* Prevents shrinking of the image */
+  }
+  
