@@ -28,6 +28,7 @@ import micro1 from './images/Micro1.jpg';
 import micro2 from './images/Micro2.jpg';
 import micro3 from './images/Micro3.jpg';
 import webd from './images/webdbyangela.jpg';
+import traveluk from './images/traveluk.png';
 
 export const icons = {
   home,
@@ -55,6 +56,7 @@ export const img = {
   micro2,
   micro3,
   webd,
+  traveluk,
 };
 
 

@@ -1,15 +1,16 @@
-.aboutme{
+.aboutme-comp{
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 70vh;
     justify-content: space-evenly;
     padding: 100px 100px;
+    
     /* background: rgba(36, 24, 35, 0.5); */
     color: white;
     
 }
-.about-heading{
+.about-comp-heading{
     color: white;
     text-align: left;
     font-family: Arial, sans-serif; /* Font family */
@@ -17,7 +18,7 @@
 
 }
 
-.about-headings{
+.about-comp-headings{
     /* text-align: center; */
     font-size: 2.4rem;
     text-transform: uppercase;
@@ -28,12 +29,12 @@
 .highlight{
     color: #be50f4;
 }
-.about-text{
+.about-comp-text{
     font-size: 1.4rem;
     line-height: 3.5rem;
 }
 
-.avatar{
+.about-comp-avatar{
     padding-right: 100px;
     padding-top: 50px;
 }

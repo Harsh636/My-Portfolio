@@ -4,10 +4,10 @@ import './Aboutme.css';
 
 const Aboutme = () => {
   return (
-    <div className="aboutme">
-      <div className="about-heading">
-        <h2 className="about-headings"> Let me <span class="highlight">introduce</span> myself</h2>
-        <p className="about-text">
+    <div className="aboutme-comp">
+      <div className="about-comp-heading">
+        <h2 className="about-comp-headings"> Let me <span class="highlight">introduce</span> myself</h2>
+        <p className="about-comp-text">
           I fell in love with programming and I have at least learnt something,
           I think… 🤷‍♂️<br></br>I am fluent in classics like <span class="highlight">Python and
           Javascript.</span><br></br>
@@ -17,7 +17,7 @@ const Aboutme = () => {
            React.js.<br></br>
         </p>
       </div>
-      <div className="avatar">
+      <div className="about-comp-avatar">
         <img src={img.avatar} alt="avatar svg" />
       </div>
     </div>
