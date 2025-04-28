@@ -1,9 +1,11 @@
+
 .project-page {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
     padding-top: 7rem;
+    
   }
   
   .project-page-heading {
@@ -16,9 +18,10 @@
   .project-page-project {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 3rem;
+    gap: 12rem;
     width: 100%;
     max-width: 1200px;
+    
   }
   
   .project-card {
@@ -31,6 +34,7 @@
     background-color: #111;
     color: #fff;
     transition: transform 0.3s;
+    
   }
   
   .project-card:hover {
